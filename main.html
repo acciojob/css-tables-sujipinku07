@@ -1,16 +1,48 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <style>
+        td, th {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 0.5rem;
+        }
+        tr:nth-child(odd) {
+            background-color:#ffffff;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <table>
+        <thead>
+            <tr>
+                <th>Table-Header1</th>
+                <th>Table-Header2</th>
+            </tr>
+        </thead>
+        <tbody>
+           <tr>
+        <td>Cell 1</td>
+        <td>Cell 2</td>
+    </tr>
+    <tr>
+        <td>Cell 4</td>
+        <td>Cell 5</td>
+	</tr>
+    <tr>
+        <td>Cell 7</td>
+        <td>Cell 8</td>
+    </tr>
+    <tr>
+        <td>Cell 9</td>
+        <td>Cell 10</td>
+    </tr>
+</tbody>
+    </table>
+    <script type="text/javascript" src="./script.js"></script>
 </body>
-
 </html>
